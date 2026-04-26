@@ -11,7 +11,7 @@ public class TwoSum {
 
        //int[] result= twoSumBrute(nums,target);
 
-        int[] resultHm= twoSumBrute(nums,target);
+        int[] resultHm= twoSumHasmap(nums,target);
 
 
        if(resultHm.length>0){
@@ -31,6 +31,8 @@ public class TwoSum {
             hm.put(nums[i], i);
         }
         return new int[] {};
+//        Time: O(n)
+//        Space: O(n)
     }
 
     public static int[] twoSumBrute(int[] nums, int target){
@@ -45,4 +47,5 @@ public class TwoSum {
        return new int[] {};
     }
     //Time complexity O(n²)
+    // Space: O(1)
 }
