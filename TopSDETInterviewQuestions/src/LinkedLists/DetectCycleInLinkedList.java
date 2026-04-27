@@ -56,6 +56,8 @@ public class DetectCycleInLinkedList {
             temp = temp.next;
         }
         return false;
+        // Time = O(n)
+        // Space = O(n)
     }
 
     public static boolean hasCycleFlyodsApproach(Node head){
@@ -70,5 +72,7 @@ public class DetectCycleInLinkedList {
             }
         }
         return false;
+        // Time = O(n)
+        // Space = O(1)
     }
 }

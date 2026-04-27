@@ -64,7 +64,9 @@ public class MergeKSortedLists {
             temp = temp.next;
 
         }
-        return dummy;
+        return dummy.next;
+        // Time = O(n log n)
+        // Space = O(n)
     }
 
     public static Node mergeKListSequentialMerge(Node[] lists){

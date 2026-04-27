@@ -46,6 +46,9 @@ public class ReverseLinkedList {
         }
         return head;
 
+        //Time = O(n)
+        //Space = O(n)
+
     }
 
     public static Node reverseLinkedList(Node head){
